@@ -775,7 +775,7 @@
         <div class="service-card reveal">
             <div class="srv-num">02</div>
             <span class="srv-icon">📄</span>
-            <h3 data-i18n="srv2Title">مستند AI</h3>
+            <h3 data-i18n="srv2Title">المستند الذكي </h3>
             <p data-i18n="srv2Desc">نظام بحث وتحليل ذكي للوثائق المؤسسية يعمل بالكامل على بنيتك التحتية المحلية (Local RAG). استخرج المعلومات من آلاف المستندات دون رفع حرف واحد لخوادم خارجية.</p>
             <span class="srv-tag">MostanadAI</span>
         </div>
@@ -846,7 +846,7 @@
                 <select id="f-service">
                     <option value="" data-i18n="srvOpt0">— اختر الخدمة —</option>
                     <option value="shield" data-i18n="srvOpt1">درع رصين</option>
-                    <option value="mostanad" data-i18n="srvOpt2">مستند AI</option>
+                    <option value="mostanad" data-i18n="srvOpt2">المستند الذكي </option>
                     <option value="governance" data-i18n="srvOpt3">استشارات الحوكمة</option>
                     <option value="other" data-i18n="srvOpt4">أخرى</option>
                 </select>
@@ -882,9 +882,8 @@
             <a href="#contact" data-i18n="navContact">تواصل معنا</a>
         </div>
         <div class="footer-contact">
-            <p>📍 <span><strong data-i18n="locLabel">المقر:</strong> <span data-i18n="locVal">نفاع، ولاية بدبد، سلطنة عمان</span></span></p>
-            <p>✉️ <span><strong data-i18n="emailLabel">البريد:</strong> <a href="mailto:info@raseen.om" style="color:var(--blue-light);text-decoration:none;">info@raseen.om</a></span></p>
-            <p>👤 <span><strong data-i18n="ceoLabel">المدير التنفيذي:</strong> <span data-i18n="ceoVal">حاشل السيابي</span></span></p>
+            <p>📍 <span><strong data-i18n="locLabel">المقر:</strong> <span data-i18n="locVal">سلطنة عمان</span></span></p>
+            <p>✉️ <span><strong data-i18n="emailLabel">البريد:</strong> <a href="mailto:raseenai@outlook.com" style="color:var(--blue-light);text-decoration:none;">raseenai@outlook.com</a></span></p>
         </div>
     </div>
     <div class="footer-bottom">
@@ -892,7 +891,7 @@
         <div class="social-links">
             <a href="#" title="LinkedIn">in</a>
             <a href="#" title="X">𝕏</a>
-            <a href="mailto:info@raseen.om" title="Email">✉</a>
+            <a href="mailto:raseenai@outlook.com" title="Email">✉</a>
         </div>
     </div>
 </footer>
@@ -966,7 +965,7 @@ function handleSubmit() {
 
     const serviceLabel = {
         shield: currentLang === 'ar' ? 'درع رصين' : 'Raseen Shield',
-        mostanad: currentLang === 'ar' ? 'مستند AI' : 'MostanadAI',
+        mostanad: currentLang === 'ar' ? ' المستند الذكي' : 'MostanadAI',
         governance: currentLang === 'ar' ? 'استشارات الحوكمة' : 'Governance Consulting',
         other: currentLang === 'ar' ? 'أخرى' : 'Other'
     }[service] || (currentLang === 'ar' ? 'غير محدد' : 'Not specified');
@@ -1038,7 +1037,7 @@ const T = {
         srvEyebrow: "المنتجات والخدمات", servicesTitle: "ما الذي نقدمه؟",
         servicesSub: "منتجات تقنية متخصصة وخدمات استشارية مصممة خصيصاً للبيئة العُمانية.",
         srv1Title: "درع رصين", srv1Desc: "منصة متقدمة لمراقبة أنظمة الذكاء الاصطناعي في الوقت الفعلي. تتبع مسار البيانات، رصد الانحرافات، وإصدار تقارير امتثال فورية لضمان الشفافية الكاملة.",
-        srv2Title: "مستند AI", srv2Desc: "نظام بحث وتحليل ذكي للوثائق المؤسسية يعمل بالكامل على بنيتك التحتية المحلية (Local RAG). استخرج المعلومات من آلاف المستندات دون رفع حرف واحد لخوادم خارجية.",
+        srv2Title: "المستند الذكي ", srv2Desc: "نظام بحث وتحليل ذكي للوثائق المؤسسية يعمل بالكامل على بنيتك التحتية المحلية (Local RAG). استخرج المعلومات من آلاف المستندات دون رفع حرف واحد لخوادم خارجية.",
         srv3Title: "استشارات الحوكمة", srv3Desc: "نساعدك على بناء سياسات داخلية شاملة لاستخدام الذكاء الاصطناعي، وتصميم خارطة طريق آمنة للتبني، وتدريب فرقك على ممارسات الذكاء الاصطناعي المسؤول.",
         srv3Tag: "AI Governance",
         whyEyebrow: "لماذا رصين", whyTitle: "ما الذي يميّزنا؟",
@@ -1049,18 +1048,18 @@ const T = {
         why4T: "تصميم للامتثال", why4D: "منتجاتنا مبنية من الأساس لتتوافق مع المتطلبات التنظيمية، ليس كإضافة لاحقة.",
         ctaEyebrow: "تواصل معنا", ctaTitle: "ابدأ رحلتك الرقمية الآمنة",
         ctaSub: "أخبرنا عن تحديات مؤسستك وسنصمم لك الحل المناسب.",
-        fldName: "الاسم الكامل", fldNamePH: "أحمد الرياضي",
+        fldName: "الاسم الكامل", fldNamePH: "أحمد الريامي",
         fldOrg: "المؤسسة / الجهة", fldOrgPH: "وزارة التقنية",
         fldEmail: "البريد الإلكتروني",
         fldService: "الخدمة المطلوبة",
-        srvOpt0: "— اختر الخدمة —", srvOpt1: "درع رصين", srvOpt2: "مستند AI", srvOpt3: "استشارات الحوكمة", srvOpt4: "أخرى",
+        srvOpt0: "— اختر الخدمة —", srvOpt1: "درع رصين", srvOpt2: "المستند الذكي ", srvOpt3: "استشارات الحوكمة", srvOpt4: "أخرى",
         fldMsg: "رسالتك", fldMsgPH: "أخبرنا عن تحدياتك التقنية أو استفساراتك...",
         submitBtn: "إرسال الطلب →",
         successMsg: "✅ شكراً! تلقينا رسالتك وسنتواصل معك خلال 24 ساعة.",
         footerTagline: "الذكاء الاصطناعي الآمن والمحكوم للمؤسسات العُمانية.",
         flinkTitle: "روابط سريعة",
         locLabel: "المقر:", locVal: "سلطنة عمان",
-        emailLabel: "البريد:", ceoLabel: "المدير التنفيذي:", ceoVal: "هاشل السيابي",
+        emailLabel: "البريد:", ceoLabel: " :", ceoVal: " ",
         copy: "© 2026 شركة رصين لحلول الذكاء الاصطناعي. جميع الحقوق محفوظة."
     },
     en: {
@@ -1106,7 +1105,7 @@ const T = {
         footerTagline: "Secure and governed AI for Omani enterprises.",
         flinkTitle: "Quick Links",
         locLabel: "HQ:", locVal: "Sultanate of Oman",
-        emailLabel: "Email:", ceoLabel: "CEO:", ceoVal: "Hashil Al Siyabi",
+        emailLabel: "Email:", ceoLabel: ":", ceoVal: "  ",
         copy: "© 2026 Raseen AI Solutions. All rights reserved."
     }
 };
@@ -1136,4 +1135,5 @@ function applyTranslations() {
 </script>
 </body>
 </html>
+
 
